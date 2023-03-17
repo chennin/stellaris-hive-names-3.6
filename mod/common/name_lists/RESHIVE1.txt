@@ -1,0 +1,233 @@
+﻿### Hive Mind (Uniform theme)
+### Created by Miranda van den Brink
+
+RESHIVE1 = {
+	randomized = no
+	should_name_home_system_planets = no
+
+	ship_names = {
+		generic = {
+			RESHIVE1_SHIP_Generic
+		}
+
+		corvette = {
+			RESHIVE1_SHIP_CombatVessel
+		}
+
+		destroyer = {
+			RESHIVE1_SHIP_SuperiorCombatVessel
+		}
+
+		cruiser = {
+			RESHIVE1_SHIP_VersatileCombatVessel
+		}
+
+		battleship = {
+			RESHIVE1_SHIP_MainlineCombatVessel
+		}
+
+		titan = {
+			RESHIVE1_SHIP_PrincipalCombatVessel
+		}
+
+		colossus = {
+			RESHIVE1_SHIP_PrimaryCombatVessel
+		}
+
+		juggernaut = {
+			RESHIVE1_SHIP_PrimaryCombatNode
+		}
+
+		science = {
+			RESHIVE1_SHIP_SeekerVessel
+		}
+
+		colonizer = {
+			RESHIVE1_SHIP_Nester
+		}
+
+		constructor = {
+			RESHIVE1_SHIP_BuilderVessel
+		}
+
+		transport = {
+			RESHIVE1_SHIP_CarrierVessel
+		}
+
+		military_station_small = {
+			RESHIVE1_SHIP_StationaryDefensive
+		}
+
+		ion_cannon = {
+			RESHIVE1_SHIP_IonDefensive
+		}
+	}
+
+	ship_class_names = {
+		generic = {
+			RESHIVE1_CLASS_TypeAlpha RESHIVE1_CLASS_TypeBeta RESHIVE1_CLASS_TypeGamma RESHIVE1_CLASS_TypeDelta RESHIVE1_CLASS_TypeEpsilon RESHIVE1_CLASS_TypeZeta RESHIVE1_CLASS_TypeEta RESHIVE1_CLASS_TypeTheta RESHIVE1_CLASS_TypeIota RESHIVE1_CLASS_TypeKappa RESHIVE1_CLASS_TypeLambda RESHIVE1_CLASS_TypeMu RESHIVE1_CLASS_TypeNu RESHIVE1_CLASS_TypeXi RESHIVE1_CLASS_TypeOmicron RESHIVE1_CLASS_TypePi RESHIVE1_CLASS_TypeRho RESHIVE1_CLASS_TypeSigma RESHIVE1_CLASS_TypeTau RESHIVE1_CLASS_TypeUpsilon RESHIVE1_CLASS_TypePhi RESHIVE1_CLASS_TypeChi RESHIVE1_CLASS_TypePsi RESHIVE1_CLASS_TypeOmega
+		}
+	}
+
+	fleet_names = {
+		random_names = {
+			RESHIVE1_FLEET_HowlingSwarm RESHIVE1_FLEET_RavenousSwarm RESHIVE1_FLEET_RavagingSwarm RESHIVE1_FLEET_DevastatingSwarm RESHIVE1_FLEET_GorgingSwarm RESHIVE1_FLEET_RushingSwarm RESHIVE1_FLEET_StalkingSwarm RESHIVE1_FLEET_ChargingSwarm RESHIVE1_FLEET_ThunderingSwarm RESHIVE1_FLEET_TeemingSwarm RESHIVE1_FLEET_CeaselessSwarm RESHIVE1_FLEET_BalefulSwarm RESHIVE1_FLEET_PestilentSwarm RESHIVE1_FLEET_MercilessSwarm RESHIVE1_FLEET_PitilessSwarm RESHIVE1_FLEET_RancorousSwarm
+		}
+		sequential_name = RESHIVE1_COMBATSWARM
+	}
+
+	army_names = {
+
+		machine_defense = {
+			sequential_name = RESHIVE1_HIVEDEFENDERS
+		}
+
+		machine_assault_1 = {
+			sequential_name = RESHIVE1_AGGRESSORS
+		}
+
+		machine_assault_2 = {
+			sequential_name = RESHIVE1_AGGRESSORS
+		}
+
+		machine_assault_3 = {
+			sequential_name = RESHIVE1_AGGRESSORS
+		}
+
+		defense_army = {
+			sequential_name = RESHIVE1_HIVEDEFENDERS
+		}
+
+		assault_army = {
+			sequential_name = RESHIVE1_AGGRESSORS
+		}
+
+		slave_army = {
+			sequential_name = RESHIVE1_SLAVEWARRIORDRONES
+		}
+
+		clone_army = {
+			sequential_name = RESHIVE1_CLONEDWARRIORDRONES
+		}
+
+		undead_army = {
+			sequential_name = RESHIVE1_DREADDRONES
+		}
+
+		robotic_army = {
+			sequential_name = RESHIVE1_ROBOTICWARRIORDRONES
+		}
+
+		robotic_defense_army = {
+			sequential_name = RESHIVE1_ROBOTICDEFENSEDRONES
+		}
+
+		psionic_army = {
+			sequential_name = RESHIVE1_PSIWARRIORDRONES
+		}
+
+		xenomorph_army = {
+			sequential_name = RESHIVE1_MORPHEDWARRIORDRONES
+		}
+
+		gene_warrior_army = {
+			sequential_name = RESHIVE1_ENHANCEDWARRIORDRONES
+		}
+
+		primitive_army = {
+			sequential_name = RESHIVE1_PRIMITIVEARMY
+		}
+		industrial_army = {
+			sequential_name = RESHIVE1_INDUSTRIALARMY
+		}
+		postatomic_army = {
+			sequential_name = RESHIVE1_POSTATOMICARMY
+		}
+	}
+
+	planet_names = {
+
+		generic = {
+			names = {
+				RESHIVE1_PLANET_AlphaCell RESHIVE1_PLANET_SwarmCellAlpha RESHIVE1_PLANET_DroneCell RESHIVE1_PLANET_NestingChamber RESHIVE1_PLANET_DroneNest RESHIVE1_PLANET_OutwardReach RESHIVE1_PLANET_ExteriorDroneChamber RESHIVE1_PLANET_ExtensionNode RESHIVE1_PLANET_StandardNode RESHIVE1_PLANET_DroneNode RESHIVE1_PLANET_ExpansiveCell RESHIVE1_PLANET_ProductionChamber RESHIVE1_PLANET_SuperiorVertex RESHIVE1_PLANET_ExpansionNode RESHIVE1_PLANET_DevelopmentChamber RESHIVE1_PLANET_AdvancementCell RESHIVE1_PLANET_ManufacturingNode RESHIVE1_PLANET_AssemblyCell RESHIVE1_PLANET_GuardJunction RESHIVE1_PLANET_Supra-Vertex RESHIVE1_PLANET_ForwardJunction RESHIVE1_PLANET_AssemblyNode RESHIVE1_PLANET_BroodColony RESHIVE1_PLANET_AlphaColony RESHIVE1_PLANET_BetaColony RESHIVE1_PLANET_GammaColony RESHIVE1_PLANET_DeltaColony RESHIVE1_PLANET_EpsilonColony RESHIVE1_PLANET_ZetaColony RESHIVE1_PLANET_EtaColony RESHIVE1_PLANET_ThetaColony RESHIVE1_PLANET_IotaColony RESHIVE1_PLANET_ProductionCell RESHIVE1_PLANET_BroodCell RESHIVE1_PLANET_DroneCluster RESHIVE1_PLANET_SwarmColony RESHIVE1_PLANET_DroneColony RESHIVE1_PLANET_AssemblyColony
+			}
+		}
+
+		pc_desert = {
+			names = {
+			}
+		}
+
+		pc_tropical = {
+			names = {
+			}
+		}
+
+		pc_arid = {
+			names = {
+			}
+		}
+
+		pc_continental = {
+			names = {
+			}
+		}
+
+		pc_ocean = {
+			names = {
+			}
+		}
+
+		pc_tundra = {
+			names = {
+			}
+		}
+
+		pc_arctic = {
+			names = {
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+	}
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+
+				RESHIVE1_CHR_AutonomousDrone1 RESHIVE1_CHR_AutonomousDrone2 RESHIVE1_CHR_AutonomousDrone3 RESHIVE1_CHR_AutonomousDrone4 RESHIVE1_CHR_AutonomousDrone5 RESHIVE1_CHR_AutonomousDrone6 RESHIVE1_CHR_AutonomousDrone7 RESHIVE1_CHR_AutonomousDrone8 RESHIVE1_CHR_AutonomousDrone9 RESHIVE1_CHR_AutonomousDrone10 RESHIVE1_CHR_AutonomousDrone11 RESHIVE1_CHR_AutonomousDrone12 RESHIVE1_CHR_AutonomousDrone13 RESHIVE1_CHR_AutonomousDrone14 RESHIVE1_CHR_AutonomousDrone15 RESHIVE1_CHR_AutonomousDrone16 RESHIVE1_CHR_AutonomousDrone17 RESHIVE1_CHR_AutonomousDrone18 RESHIVE1_CHR_AutonomousDrone19 RESHIVE1_CHR_AutonomousDrone20 RESHIVE1_CHR_AutonomousDrone21 RESHIVE1_CHR_AutonomousDrone22 RESHIVE1_CHR_AutonomousDrone23 RESHIVE1_CHR_AutonomousDrone24 RESHIVE1_CHR_AutonomousDrone25 RESHIVE1_CHR_AutonomousDrone26 RESHIVE1_CHR_AutonomousDrone27 RESHIVE1_CHR_AutonomousDrone28 RESHIVE1_CHR_AutonomousDrone29 RESHIVE1_CHR_AutonomousDrone30 RESHIVE1_CHR_AutonomousDrone31 RESHIVE1_CHR_AutonomousDrone32 RESHIVE1_CHR_AutonomousDrone33 RESHIVE1_CHR_AutonomousDrone34 RESHIVE1_CHR_AutonomousDrone35 RESHIVE1_CHR_AutonomousDrone36 RESHIVE1_CHR_AutonomousDrone37 RESHIVE1_CHR_AutonomousDrone38 RESHIVE1_CHR_AutonomousDrone39 RESHIVE1_CHR_AutonomousDrone40 RESHIVE1_CHR_AutonomousDrone41 RESHIVE1_CHR_AutonomousDrone42 RESHIVE1_CHR_AutonomousDrone43 RESHIVE1_CHR_AutonomousDrone44 RESHIVE1_CHR_AutonomousDrone45 RESHIVE1_CHR_AutonomousDrone46 RESHIVE1_CHR_AutonomousDrone47 RESHIVE1_CHR_AutonomousDrone48 RESHIVE1_CHR_AutonomousDrone49 RESHIVE1_CHR_AutonomousDrone50 RESHIVE1_CHR_AutonomousDrone51 RESHIVE1_CHR_AutonomousDrone52 RESHIVE1_CHR_AutonomousDrone53 RESHIVE1_CHR_AutonomousDrone54 RESHIVE1_CHR_AutonomousDrone55 RESHIVE1_CHR_AutonomousDrone56 RESHIVE1_CHR_AutonomousDrone57 RESHIVE1_CHR_AutonomousDrone58 RESHIVE1_CHR_AutonomousDrone59 RESHIVE1_CHR_AutonomousDrone60 RESHIVE1_CHR_AutonomousDrone61 RESHIVE1_CHR_AutonomousDrone62 RESHIVE1_CHR_AutonomousDrone63 RESHIVE1_CHR_AutonomousDrone64 RESHIVE1_CHR_AutonomousDrone65 RESHIVE1_CHR_AutonomousDrone66 RESHIVE1_CHR_AutonomousDrone67 RESHIVE1_CHR_AutonomousDrone68 RESHIVE1_CHR_AutonomousDrone69 RESHIVE1_CHR_AutonomousDrone70 RESHIVE1_CHR_AutonomousDrone71 RESHIVE1_CHR_AutonomousDrone72 RESHIVE1_CHR_AutonomousDrone73 RESHIVE1_CHR_AutonomousDrone74
+			}
+
+			# Always combined with a second name
+			first_names = {
+			}
+
+			# Always combined with a first name
+			second_names = {
+			}
+
+			regnal_first_names = {
+			}
+
+			regnal_second_names = {
+			}
+		}
+	}
+
+	ruler_names = {
+		default = {
+			full_names = {
+				RESHIVE1_RULER_SynapticNexus RESHIVE1_RULER_Consciousness
+			}
+		}
+	}
+}

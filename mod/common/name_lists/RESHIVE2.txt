@@ -1,0 +1,233 @@
+﻿### Hive Mind 2 (Uniform theme)
+### Created by Douglas Furen
+
+RESHIVE2 = {
+	category = "Hive Mind"
+	randomized = no
+	should_name_home_system_planets = no
+
+	ship_names = {
+		generic = {
+			RESHIVE2_SHIP_Generic
+		}
+
+		corvette = {
+			RESHIVE2_SHIP_MinorBattleUnit
+		}
+
+		destroyer = {
+			RESHIVE2_SHIP_BattleUnit
+		}
+
+		cruiser = {
+			RESHIVE2_SHIP_SuperiorBattleUnit
+		}
+
+		battleship = {
+			RESHIVE2_SHIP_MajorBattleUnit
+		}
+
+		titan = {
+			RESHIVE2_SHIP_SignificantBattleUnit
+		}
+
+		colossus = {
+			RESHIVE2_SHIP_PillarBattleUnit
+		}
+
+		juggernaut = {
+			RESHIVE2_SHIP_PinnacleBattleUnit
+		}
+
+		science = {
+			RESHIVE2_SHIP_SearcherUnit
+		}
+
+		colonizer = {
+			RESHIVE2_SHIP_ExpansionUnit
+		}
+
+		constructor = {
+			RESHIVE2_SHIP_ConstructionUnit
+		}
+
+		transport = {
+			RESHIVE2_SHIP_CarrierUnit
+		}
+
+		military_station_small = {
+			RESHIVE2_SHIP_OrbitalDefenseUnit
+		}
+
+		ion_cannon = {
+			RESHIVE2_SHIP_IonDefenseUnit
+		}
+	}
+
+	ship_class_names = {
+		generic = {
+			RESHIVE2_CLASS_EntityAlef RESHIVE2_CLASS_EntityBet RESHIVE2_CLASS_EntityGimel RESHIVE2_CLASS_EntityVav RESHIVE2_CLASS_EntityZayin RESHIVE2_CLASS_EntityDalet RESHIVE2_CLASS_EntityLamed RESHIVE2_CLASS_EntitySamech RESHIVE2_CLASS_EntityTsade RESHIVE2_CLASS_EntityShin RESHIVE2_CLASS_EntityTav RESHIVE2_CLASS_EntityChet RESHIVE2_CLASS_EntityTet RESHIVE2_CLASS_EntityYod RESHIVE2_CLASS_EntityKaf RESHIVE2_CLASS_EntityMem RESHIVE2_CLASS_EntityAyin RESHIVE2_CLASS_EntityQof RESHIVE2_CLASS_EntityResh
+		}
+	}
+
+	fleet_names = {
+		random_names = {
+			RESHIVE2_FLEET_IntentionThrong RESHIVE2_FLEET_PurposeThrong RESHIVE2_FLEET_DesignThrong RESHIVE2_FLEET_FunctionThrong RESHIVE2_FLEET_DeterminationThrong RESHIVE2_FLEET_DirectionThrong RESHIVE2_FLEET_PrincipleThrong RESHIVE2_FLEET_TargetThrong RESHIVE2_FLEET_AimThrong RESHIVE2_FLEET_GoalThrong RESHIVE2_FLEET_CorrectionThrong RESHIVE2_FLEET_DecisionThrong RESHIVE2_FLEET_DedicationThrong RESHIVE2_FLEET_TenacityThrong RESHIVE2_FLEET_ResolveThrong RESHIVE2_FLEET_ResoluteThrong RESHIVE2_FLEET_ObjectiveThrong RESHIVE2_FLEET_TargetThrong RESHIVE2_FLEET_SolutionThrong
+		}
+		sequential_name = RESHIVE2_BATTLETHRONG
+	}
+
+	army_names = {
+
+		machine_defense = {
+			sequential_name = RESHIVE2_PROTECTIONEXTREMITY
+		}
+
+		machine_assault_1 = {
+			sequential_name = RESHIVE2_ASSAULTEXTREMITY
+		}
+
+		machine_assault_2 = {
+			sequential_name = RESHIVE2_ASSAULTEXTREMITY
+		}
+
+		machine_assault_3 = {
+			sequential_name = RESHIVE2_ASSAULTEXTREMITY
+		}
+
+		defense_army = {
+			sequential_name = RESHIVE2_PROTECTIONEXTREMITY
+		}
+
+		assault_army = {
+			sequential_name = RESHIVE2_ASSAULTEXTREMITY
+		}
+
+		slave_army = {
+			sequential_name = RESHIVE2_FORFEITEXTREMITY
+		}
+
+		clone_army = {
+			sequential_name = RESHIVE2_REPLICATEEXTREMITY
+		}
+
+		undead_army = {
+			sequential_name = RESHIVE2_DREADEXTREMITY
+		}
+
+		robotic_army = {
+			sequential_name = RESHIVE2_MACHINEEXTREMITY
+		}
+
+		robotic_defense_army = {
+			sequential_name = RESHIVE2_DEFENSEMACHINEEXTREMITY
+		}
+
+		psionic_army = {
+			sequential_name = RESHIVE2_WEAPONIZEDTHOUGHTEXTREMITY
+		}
+
+		xenomorph_army = {
+			sequential_name = RESHIVE2_MORPHEDEXTREMITY
+		}
+
+		gene_warrior_army = {
+			sequential_name = RESHIVE2_ENHANCEDEXTREMITY
+		}
+
+		primitive_army = {
+			sequential_name = RESHIVE2_PRIMITIVEEXTREMITY
+		}
+		industrial_army = {
+			sequential_name = RESHIVE2_INDUSTRIALEXTREMITY
+		}
+		postatomic_army = {
+			sequential_name = RESHIVE2_RUINEDEXTREMITY
+		}
+	}
+
+	planet_names = {
+
+		generic = {
+			names = {
+				RESHIVE2_PLANET_ClusterMak RESHIVE2_PLANET_GripTak RESHIVE2_PLANET_AcquisitionGim RESHIVE2_PLANET_ProcurementVoph RESHIVE2_PLANET_ObtainmentFir RESHIVE2_PLANET_AppropriationYig RESHIVE2_PLANET_AmendmentJud RESHIVE2_PLANET_GainOep RESHIVE2_PLANET_AdditionThet RESHIVE2_PLANET_AttainmentShu RESHIVE2_PLANET_RetrievalAhin RESHIVE2_PLANET_InclusionChak RESHIVE2_PLANET_ExtensionHemi RESHIVE2_PLANET_AnnexationTreh RESHIVE2_PLANET_AddendumEgr RESHIVE2_PLANET_IncrementPann RESHIVE2_PLANET_DividendByel RESHIVE2_PLANET_AdvancementSek RESHIVE2_PLANET_StepKyn RESHIVE2_PLANET_AlefCluster RESHIVE2_PLANET_BetGrip RESHIVE2_PLANET_GimelAcquisition RESHIVE2_PLANET_VavProcurement RESHIVE2_PLANET_ZayinObtainment RESHIVE2_PLANET_DaletAppropriation RESHIVE2_PLANET_SamechGain RESHIVE2_PLANET_TsadeAttainment RESHIVE2_PLANET_TavInclusion RESHIVE2_PLANET_ChetExtension RESHIVE2_PLANET_TetAnnexation RESHIVE2_PLANET_YodExpansion RESHIVE2_PLANET_KafAddendum RESHIVE2_PLANET_MemIncrement RESHIVE2_PLANET_AyinDividend RESHIVE2_PLANET_QofAdvancement RESHIVE2_PLANET_ReshStep
+			}
+		}
+
+		pc_desert = {
+			names = {
+			}
+		}
+
+		pc_tropical = {
+			names = {
+			}
+		}
+
+		pc_arid = {
+			names = {
+			}
+		}
+
+		pc_continental = {
+			names = {
+			}
+		}
+
+		pc_ocean = {
+			names = {
+			}
+		}
+
+		pc_tundra = {
+			names = {
+			}
+		}
+
+		pc_arctic = {
+			names = {
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+	}
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+				RESHIVE2_CHR_MotileOrgan1 RESHIVE2_CHR_MotileOrgan2 RESHIVE2_CHR_MotileOrgan3 RESHIVE2_CHR_MotileOrgan4 RESHIVE2_CHR_MotileOrgan5 RESHIVE2_CHR_MotileOrgan6 RESHIVE2_CHR_MotileOrgan7 RESHIVE2_CHR_MotileOrgan8 RESHIVE2_CHR_MotileOrgan9 RESHIVE2_CHR_MotileOrgan10 RESHIVE2_CHR_MotileOrgan11 RESHIVE2_CHR_MotileOrgan12 RESHIVE2_CHR_MotileOrgan13 RESHIVE2_CHR_MotileOrgan14 RESHIVE2_CHR_MotileOrgan15 RESHIVE2_CHR_MotileOrgan16 RESHIVE2_CHR_MotileOrgan17 RESHIVE2_CHR_MotileOrgan18 RESHIVE2_CHR_MotileOrgan19 RESHIVE2_CHR_MotileOrgan20 RESHIVE2_CHR_MotileOrgan21 RESHIVE2_CHR_MotileOrgan22 RESHIVE2_CHR_MotileOrgan23 RESHIVE2_CHR_MotileOrgan24 RESHIVE2_CHR_MotileOrgan25 RESHIVE2_CHR_MotileOrgan26 RESHIVE2_CHR_MotileOrgan27 RESHIVE2_CHR_MotileOrgan28 RESHIVE2_CHR_MotileOrgan29 RESHIVE2_CHR_MotileOrgan30 RESHIVE2_CHR_MotileOrgan31 RESHIVE2_CHR_MotileOrgan32 RESHIVE2_CHR_MotileOrgan33 RESHIVE2_CHR_MotileOrgan34 RESHIVE2_CHR_MotileOrgan35 RESHIVE2_CHR_MotileOrgan36 RESHIVE2_CHR_MotileOrgan37 RESHIVE2_CHR_MotileOrgan38 RESHIVE2_CHR_MotileOrgan39 RESHIVE2_CHR_MotileOrgan40 RESHIVE2_CHR_MotileOrgan41 RESHIVE2_CHR_MotileOrgan42 RESHIVE2_CHR_MotileOrgan43 RESHIVE2_CHR_MotileOrgan44 RESHIVE2_CHR_MotileOrgan45 RESHIVE2_CHR_MotileOrgan46 RESHIVE2_CHR_MotileOrgan47 RESHIVE2_CHR_MotileOrgan48 RESHIVE2_CHR_MotileOrgan49 RESHIVE2_CHR_MotileOrgan50 RESHIVE2_CHR_MotileOrgan51 RESHIVE2_CHR_MotileOrgan52 RESHIVE2_CHR_MotileOrgan53 RESHIVE2_CHR_MotileOrgan54 RESHIVE2_CHR_MotileOrgan55 RESHIVE2_CHR_MotileOrgan56 RESHIVE2_CHR_MotileOrgan57 RESHIVE2_CHR_MotileOrgan58 RESHIVE2_CHR_MotileOrgan59 RESHIVE2_CHR_MotileOrgan60 RESHIVE2_CHR_MotileOrgan61 RESHIVE2_CHR_MotileOrgan62 RESHIVE2_CHR_MotileOrgan63 RESHIVE2_CHR_MotileOrgan64 RESHIVE2_CHR_MotileOrgan65 RESHIVE2_CHR_MotileOrgan66 RESHIVE2_CHR_MotileOrgan67 RESHIVE2_CHR_MotileOrgan68 RESHIVE2_CHR_MotileOrgan69 RESHIVE2_CHR_MotileOrgan70 RESHIVE2_CHR_MotileOrgan71 RESHIVE2_CHR_MotileOrgan72 RESHIVE2_CHR_MotileOrgan73 RESHIVE2_CHR_MotileOrgan74 RESHIVE2_CHR_MotileOrgan75 RESHIVE2_CHR_MotileOrgan76 RESHIVE2_CHR_MotileOrgan77 RESHIVE2_CHR_MotileOrgan78 RESHIVE2_CHR_MotileOrgan79 RESHIVE2_CHR_MotileOrgan80
+			}
+
+			# Always combined with a second name
+			first_names = {
+			}
+
+			# Always combined with a first name
+			second_names = {
+			}
+
+			regnal_first_names = {
+			}
+
+			regnal_second_names = {
+			}
+		}
+	}
+
+	ruler_names = {
+		default = {
+			full_names = {
+				RESHIVE2_RULER_Consciousness RESHIVE2_RULER_Mind RESHIVE2_RULER_Legion RESHIVE2_RULER_Source RESHIVE2_RULER_Wellspring
+			}
+		}
+	}
+}
