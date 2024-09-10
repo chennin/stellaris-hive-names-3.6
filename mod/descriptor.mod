@@ -5,5 +5,5 @@ tags={
 }
 picture="thumbnail.png"
 name="Hive Namelists Restored"
-supported_version="3.12.*"
+supported_version="v3.13.*"
 remote_file_id="2947933598"
