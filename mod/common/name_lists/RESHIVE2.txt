@@ -207,25 +207,7 @@ RESHIVE2 = {
 				RESHIVE2_CHR_MotileOrgan1 RESHIVE2_CHR_MotileOrgan2 RESHIVE2_CHR_MotileOrgan3 RESHIVE2_CHR_MotileOrgan4 RESHIVE2_CHR_MotileOrgan5 RESHIVE2_CHR_MotileOrgan6 RESHIVE2_CHR_MotileOrgan7 RESHIVE2_CHR_MotileOrgan8 RESHIVE2_CHR_MotileOrgan9 RESHIVE2_CHR_MotileOrgan10 RESHIVE2_CHR_MotileOrgan11 RESHIVE2_CHR_MotileOrgan12 RESHIVE2_CHR_MotileOrgan13 RESHIVE2_CHR_MotileOrgan14 RESHIVE2_CHR_MotileOrgan15 RESHIVE2_CHR_MotileOrgan16 RESHIVE2_CHR_MotileOrgan17 RESHIVE2_CHR_MotileOrgan18 RESHIVE2_CHR_MotileOrgan19 RESHIVE2_CHR_MotileOrgan20 RESHIVE2_CHR_MotileOrgan21 RESHIVE2_CHR_MotileOrgan22 RESHIVE2_CHR_MotileOrgan23 RESHIVE2_CHR_MotileOrgan24 RESHIVE2_CHR_MotileOrgan25 RESHIVE2_CHR_MotileOrgan26 RESHIVE2_CHR_MotileOrgan27 RESHIVE2_CHR_MotileOrgan28 RESHIVE2_CHR_MotileOrgan29 RESHIVE2_CHR_MotileOrgan30 RESHIVE2_CHR_MotileOrgan31 RESHIVE2_CHR_MotileOrgan32 RESHIVE2_CHR_MotileOrgan33 RESHIVE2_CHR_MotileOrgan34 RESHIVE2_CHR_MotileOrgan35 RESHIVE2_CHR_MotileOrgan36 RESHIVE2_CHR_MotileOrgan37 RESHIVE2_CHR_MotileOrgan38 RESHIVE2_CHR_MotileOrgan39 RESHIVE2_CHR_MotileOrgan40 RESHIVE2_CHR_MotileOrgan41 RESHIVE2_CHR_MotileOrgan42 RESHIVE2_CHR_MotileOrgan43 RESHIVE2_CHR_MotileOrgan44 RESHIVE2_CHR_MotileOrgan45 RESHIVE2_CHR_MotileOrgan46 RESHIVE2_CHR_MotileOrgan47 RESHIVE2_CHR_MotileOrgan48 RESHIVE2_CHR_MotileOrgan49 RESHIVE2_CHR_MotileOrgan50 RESHIVE2_CHR_MotileOrgan51 RESHIVE2_CHR_MotileOrgan52 RESHIVE2_CHR_MotileOrgan53 RESHIVE2_CHR_MotileOrgan54 RESHIVE2_CHR_MotileOrgan55 RESHIVE2_CHR_MotileOrgan56 RESHIVE2_CHR_MotileOrgan57 RESHIVE2_CHR_MotileOrgan58 RESHIVE2_CHR_MotileOrgan59 RESHIVE2_CHR_MotileOrgan60 RESHIVE2_CHR_MotileOrgan61 RESHIVE2_CHR_MotileOrgan62 RESHIVE2_CHR_MotileOrgan63 RESHIVE2_CHR_MotileOrgan64 RESHIVE2_CHR_MotileOrgan65 RESHIVE2_CHR_MotileOrgan66 RESHIVE2_CHR_MotileOrgan67 RESHIVE2_CHR_MotileOrgan68 RESHIVE2_CHR_MotileOrgan69 RESHIVE2_CHR_MotileOrgan70 RESHIVE2_CHR_MotileOrgan71 RESHIVE2_CHR_MotileOrgan72 RESHIVE2_CHR_MotileOrgan73 RESHIVE2_CHR_MotileOrgan74 RESHIVE2_CHR_MotileOrgan75 RESHIVE2_CHR_MotileOrgan76 RESHIVE2_CHR_MotileOrgan77 RESHIVE2_CHR_MotileOrgan78 RESHIVE2_CHR_MotileOrgan79 RESHIVE2_CHR_MotileOrgan80
 			}
 
-			# Always combined with a second name
-			first_names = {
-			}
-
-			# Always combined with a first name
-			second_names = {
-			}
-
-			regnal_first_names = {
-			}
-
-			regnal_second_names = {
-			}
-		}
-	}
-
-	ruler_names = {
-		default = {
-			full_names = {
+			regnal_full_names = {
 				RESHIVE2_RULER_Consciousness RESHIVE2_RULER_Mind RESHIVE2_RULER_Legion RESHIVE2_RULER_Source RESHIVE2_RULER_Wellspring
 			}
 		}

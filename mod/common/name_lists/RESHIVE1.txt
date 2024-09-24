@@ -203,29 +203,10 @@ RESHIVE1 = {
 		default = {
 			# A complete name
 			full_names = {
-
 				RESHIVE1_CHR_AutonomousDrone1 RESHIVE1_CHR_AutonomousDrone2 RESHIVE1_CHR_AutonomousDrone3 RESHIVE1_CHR_AutonomousDrone4 RESHIVE1_CHR_AutonomousDrone5 RESHIVE1_CHR_AutonomousDrone6 RESHIVE1_CHR_AutonomousDrone7 RESHIVE1_CHR_AutonomousDrone8 RESHIVE1_CHR_AutonomousDrone9 RESHIVE1_CHR_AutonomousDrone10 RESHIVE1_CHR_AutonomousDrone11 RESHIVE1_CHR_AutonomousDrone12 RESHIVE1_CHR_AutonomousDrone13 RESHIVE1_CHR_AutonomousDrone14 RESHIVE1_CHR_AutonomousDrone15 RESHIVE1_CHR_AutonomousDrone16 RESHIVE1_CHR_AutonomousDrone17 RESHIVE1_CHR_AutonomousDrone18 RESHIVE1_CHR_AutonomousDrone19 RESHIVE1_CHR_AutonomousDrone20 RESHIVE1_CHR_AutonomousDrone21 RESHIVE1_CHR_AutonomousDrone22 RESHIVE1_CHR_AutonomousDrone23 RESHIVE1_CHR_AutonomousDrone24 RESHIVE1_CHR_AutonomousDrone25 RESHIVE1_CHR_AutonomousDrone26 RESHIVE1_CHR_AutonomousDrone27 RESHIVE1_CHR_AutonomousDrone28 RESHIVE1_CHR_AutonomousDrone29 RESHIVE1_CHR_AutonomousDrone30 RESHIVE1_CHR_AutonomousDrone31 RESHIVE1_CHR_AutonomousDrone32 RESHIVE1_CHR_AutonomousDrone33 RESHIVE1_CHR_AutonomousDrone34 RESHIVE1_CHR_AutonomousDrone35 RESHIVE1_CHR_AutonomousDrone36 RESHIVE1_CHR_AutonomousDrone37 RESHIVE1_CHR_AutonomousDrone38 RESHIVE1_CHR_AutonomousDrone39 RESHIVE1_CHR_AutonomousDrone40 RESHIVE1_CHR_AutonomousDrone41 RESHIVE1_CHR_AutonomousDrone42 RESHIVE1_CHR_AutonomousDrone43 RESHIVE1_CHR_AutonomousDrone44 RESHIVE1_CHR_AutonomousDrone45 RESHIVE1_CHR_AutonomousDrone46 RESHIVE1_CHR_AutonomousDrone47 RESHIVE1_CHR_AutonomousDrone48 RESHIVE1_CHR_AutonomousDrone49 RESHIVE1_CHR_AutonomousDrone50 RESHIVE1_CHR_AutonomousDrone51 RESHIVE1_CHR_AutonomousDrone52 RESHIVE1_CHR_AutonomousDrone53 RESHIVE1_CHR_AutonomousDrone54 RESHIVE1_CHR_AutonomousDrone55 RESHIVE1_CHR_AutonomousDrone56 RESHIVE1_CHR_AutonomousDrone57 RESHIVE1_CHR_AutonomousDrone58 RESHIVE1_CHR_AutonomousDrone59 RESHIVE1_CHR_AutonomousDrone60 RESHIVE1_CHR_AutonomousDrone61 RESHIVE1_CHR_AutonomousDrone62 RESHIVE1_CHR_AutonomousDrone63 RESHIVE1_CHR_AutonomousDrone64 RESHIVE1_CHR_AutonomousDrone65 RESHIVE1_CHR_AutonomousDrone66 RESHIVE1_CHR_AutonomousDrone67 RESHIVE1_CHR_AutonomousDrone68 RESHIVE1_CHR_AutonomousDrone69 RESHIVE1_CHR_AutonomousDrone70 RESHIVE1_CHR_AutonomousDrone71 RESHIVE1_CHR_AutonomousDrone72 RESHIVE1_CHR_AutonomousDrone73 RESHIVE1_CHR_AutonomousDrone74
 			}
 
-			# Always combined with a second name
-			first_names = {
-			}
-
-			# Always combined with a first name
-			second_names = {
-			}
-
-			regnal_first_names = {
-			}
-
-			regnal_second_names = {
-			}
-		}
-	}
-
-	ruler_names = {
-		default = {
-			full_names = {
+			regnal_full_names = {
 				RESHIVE1_RULER_SynapticNexus RESHIVE1_RULER_Consciousness
 			}
 		}
